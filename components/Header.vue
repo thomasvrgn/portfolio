@@ -36,6 +36,7 @@ export default Vue.extend({
     flex: 1 0;
     &.nessmc\:blank {
       flex-basis: calc(100% - 650px);
+      background-color: rgb(240, 240, 240);
       @media (max-width: 1440px) {
         flex-basis: 50%;
       }

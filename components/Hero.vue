@@ -40,7 +40,7 @@ export default Vue.extend({
     min-height: unset !important;
     display: flex;
     flex: 1 0 65%;
-    background: blue;
+    background: white;
     border-radius: 25px 0 0 25px;
     @media (max-width: 1440px) {
       flex: 1 0 50%;
