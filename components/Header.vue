@@ -1,10 +1,13 @@
 <template>
-  <div class="nessmc:container">
-    <div class="nessmc:item nessmc:blank">
-      <span></span>
-    </div>
-    <div class="nessmc:item nessmc:coloured">
-      <span></span>
+  <div class="nessmc:app">
+    <Navbar />
+    <div class="nessmc:container">
+      <div class="nessmc:item nessmc:blank">
+        <span></span>
+      </div>
+      <div class="nessmc:item nessmc:coloured">
+        <span></span>
+      </div>
     </div>
   </div>
 </template>
@@ -31,10 +34,10 @@ export default Vue.extend({
     display: flex;
     flex: 1 0;
     &.nessmc\:blank {
-      flex-basis: 65%;
+      flex-basis: calc(100% - 650px);
     }
     &.nessmc\:coloured {
-      flex-basis: 35%;
+      flex-basis: 650px;
       background-image: linear-gradient(to bottom, #a71cd8, #9123c6, #7c25b3, #6825a0, #56248c);
     }
   }
