@@ -41,6 +41,7 @@ export default Vue.extend({
 
 <style lang="scss">
 .nessmc\:hero {
+  z-index: 1;
   position: absolute;
   top: 50%;
   left: calc(100% - 792.5px);
@@ -61,6 +62,7 @@ export default Vue.extend({
     width: 65%;
   }
   .nessmc\:hero-text {
+    padding: 1rem 0;
     min-height: unset !important;
     display: flex;
     flex: 1 0 65%;
@@ -71,6 +73,7 @@ export default Vue.extend({
       text-align: center;
     } 
     .nessmc\:container {
+      position: relative;
       min-height: unset !important;
       display: flex;
       justify-content: center;
