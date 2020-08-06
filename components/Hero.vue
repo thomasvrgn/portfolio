@@ -57,6 +57,8 @@ export default Vue.extend({
   }
   @media (max-width: 1280px) {
     flex-flow: row wrap;
+    height: 65%;
+    width: 65%;
   }
   .nessmc\:hero-text {
     min-height: unset !important;
@@ -64,6 +66,10 @@ export default Vue.extend({
     flex: 1 0 65%;
     background: white;
     border-radius: 25px 0 0 25px;
+    @media (max-width: 1280px) {
+      border-radius: 25px;
+      text-align: center;
+    } 
     .nessmc\:container {
       min-height: unset !important;
       display: flex;
@@ -103,6 +109,9 @@ export default Vue.extend({
             &:last-child {
               margin: 0 0 0 1rem;
             }
+            @media (max-width: 1280px) {
+              margin: 0 1rem;
+            }
           }
         }
       }
@@ -129,6 +138,7 @@ export default Vue.extend({
     }
     @media (max-width: 1280px) {
       flex: 1 0 100%;
+      display: none;
     }
   }
 }
