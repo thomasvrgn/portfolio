@@ -43,7 +43,7 @@ export default Vue.extend({
     }
     &.nessmc\:coloured {
       flex-basis: 650px;
-      background-image: linear-gradient(to bottom, #a71cd8, #9123c6, #7c25b3, #6825a0, #56248c);
+      background-image: linear-gradient(to bottom, #1c55d8, #204dbf, #2345a7, #243e8f, #243678);
       @media (max-width: 1440px) {
         flex-basis: 50%;
       }
