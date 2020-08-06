@@ -40,7 +40,7 @@ export default Vue.extend({
       padding: 0 0.5rem;
       .nessmc\:title {
         font-size: 2rem;
-        background-color: #a71cd8;
+        background-image: linear-gradient(to right bottom, #a71cd8, #a01ece, #981fc4, #9120ba, #8a21b0);
         border-radius: 5px;
         padding: 0.5rem 1rem;
         color: white;

@@ -20,13 +20,12 @@ export default Vue.extend({
 .nessmc\:hero {
   position: absolute;
   top: 50%;
-  left: calc(100% - 792px);
+  left: calc(100% - 792.5px);
   transform: translate(-50%, -50%);
   height: 50%;
   min-height: unset !important;
   width: 950px;
   border-radius: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   @media (max-width: 1440px) {
     width: 75%;
@@ -54,6 +53,7 @@ export default Vue.extend({
     display: flex;
     flex: 1 0 35%;
     background-image: url('../assets/logo.jpg');
+    margin-left: -1px;
     background-position: center center;
     background-size: cover;
     filter: grayscale(100%);
