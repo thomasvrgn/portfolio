@@ -53,6 +53,9 @@ export default Vue.extend({
       .nessmc\:button {
         color: white;
         cursor: pointer;
+        @media (max-width: 1280px) {
+          color: #1c55d8;
+        }
       }
     }
   }
