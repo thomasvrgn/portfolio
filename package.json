@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
-    "nuxt": "^2.14.0"
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.14.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",
