@@ -1,6 +1,7 @@
 <template>
   <div class="nessmc:app">
     <Navbar />
+    <Hero />
     <div class="nessmc:container">
       <div class="nessmc:item nessmc:blank">
         <span></span>
@@ -35,10 +36,19 @@ export default Vue.extend({
     flex: 1 0;
     &.nessmc\:blank {
       flex-basis: calc(100% - 650px);
+      @media (max-width: 1440px) {
+        flex-basis: 50%;
+      }
     }
     &.nessmc\:coloured {
       flex-basis: 650px;
       background-image: linear-gradient(to bottom, #a71cd8, #9123c6, #7c25b3, #6825a0, #56248c);
+      @media (max-width: 1440px) {
+        flex-basis: 50%;
+      }
+      @media (max-width: 1280px) {
+        display: none;
+      }
     }
   }
 }
