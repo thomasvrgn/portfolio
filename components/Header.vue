@@ -3,23 +3,32 @@
     <div class="flex flex-auto lg:w-3/4 lg:bg-red-200">
       <div class="flex flex-auto justify-center items-center">
         <div class="flex flex-initial justify-center items-center bg-white shadow-lg w-2/3 rounded-lg">
-          <div class="container p-8 flex flex-row">
-            <div class="flex flex-auto items-center">
-              <div class="container">
-                <h1 class="font-bold text-3xl text-gray-800">
-                  Ness
-                </h1>
-                <p class="italic text-gray-600">
-                  Web developer
-                </p>
+          <div class="flex flex-col container">
+
+            <div class="p-8 flex flex-row">
+              <div class="flex flex-auto items-center">
+                <div class="container">
+                  <h1 class="font-bold text-3xl text-gray-800">
+                    Ness
+                  </h1>
+                  <p class="text-gray-600 font-light -mt-1">
+                    Web developer
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-auto items-center">
+                <div class="container flex flex-row flex-wrap justify-center">
+                  <Button content="Button" color="red" />
+                  <Button content="Button" color="purple" />
+                  <Button content="Button" color="blue" />
+                </div>
               </div>
             </div>
-            <div class="flex flex-auto w-3/4 items-center">
-              <div class="container flex flex-row flex-wrap justify-center">
-                <Button content="Button" color="red" />
-                <Button content="Button" color="purple" />
-                <Button content="Button" color="blue" />
-              </div>
+
+            <div class="container">
+              <p class="font-normal px-8 pb-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga sapiente blanditiis reiciendis maxime debitis iste tenetur architecto dolorum! Delectus eum soluta aut officia dolore consequuntur, velit inventore dolor! Quos.Quia incidunt quasi quisquam nobis in consequatur ipsam numquam corporis mollitia aperiam accusamus autem, deleniti illo sint quod, rem vero laboriosam repellat porro sequi molestiae optio? Obcaecati omnis alias asperiores.
+              </p>
             </div>
           </div>
         </div>
